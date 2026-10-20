@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "FleuronMixed";
+    src: url("FleuronMixed.otf")
+
+}
+
+@font-face{
+    font-family:"Initials";
+    src: url("FlowersInitials.ttf")
+}
+
+@font-face{
+    font-family:"Xanh";
+    src:url("XanhMono-Regular.ttf")
+}
+
+@font-face{
+    font-family:"XanhI";
+    src:url("XanhMono-Italic.ttf");
+}
+
+body {
+    h1{
+    font-family:"Initials";
+    font-size:130px;
+    font-weight: normal;
+    position:center;
+    margin-left:50px;
+    margin-top:40px;
+    }
+    
+
+ .comp{
+    font-size:36px;
+    font-family:"Xanh";
+    margin-left: 100px;
+
+}
+
+.fleuron{
+    position:absolute;
+    top:350px;
+    right:200px;
+
+}   
+
+.fleuron img {
+    width:150px;
+    margin:-10px;
+}
+
+button{
+    font-size:24px;
+    font-family:"XanhI";
+    color:white;
+    background-color: black;
+}
+
+.yours{
+    position:absolute;
+    top:220px;
+    right:125px;
+    font-size:24px;
+    font-family:"Xanh";
+
+}
+
+.bodytext{
+position:absolute;
+top:225px;
+right:600px;
+left:600px;
+font-size:24px;
+text-align: justify;
+font-family: 'Courier New', Courier, monospace
+
+}
+}
